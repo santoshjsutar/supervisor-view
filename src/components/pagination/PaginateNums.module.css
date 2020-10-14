@@ -1,0 +1,58 @@
+.paginateNumbers {
+  cursor: pointer;
+  margin-right: 10px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  height: 30px;
+  width: 30px;
+}
+
+.paginateNumbers:active {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #ffffff;
+  background: #2055b5;
+  border: none;
+  border-radius: 0;
+  height: 30px;
+  width: 30px;
+}
+.paginateNumbers:focus {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #2055b5;
+  border: none;
+  border-radius: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.paginateButton {
+  margin-right: 10px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  height: 30px;
+  width: 30px;
+}
+.paginatePipeArrow {
+  margin-right: 10px;
+  cursor: pointer;
+  background: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  height: 30px;
+  width: 30px;
+}
+
+.paginateButton:disabled {
+  cursor: auto;
+  border: none;
+  background: #e5e5e5;
+}
+
+.paginatePipeArrow:disabled {
+  border: none;
+  cursor: auto;
+  background: #e5e5e5;
+}
